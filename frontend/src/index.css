@@ -25,6 +25,15 @@ body {
   .grid-container {
     grid-template-rows: 11rem 1fr 5rem;
   }
+  .grid-container .brand{
+    font-size: 2rem;
+  }
+  .grid-container .fa .barger{
+    font-size: 1rem !important;
+  }
+  .grid-container .row{
+   
+  }
 }
 header {
   grid-area: header;
@@ -325,6 +334,9 @@ aside li {
   border-radius: 0.5rem 0 0 0.5rem;
   border-right: none;
   margin-left: 0.5rem;
+}
+.search input:focus{
+  outline: none;
 }
 .active {
   font-weight: bold;

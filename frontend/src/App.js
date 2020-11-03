@@ -65,10 +65,10 @@ function App() {
               <i className="fa fa-bars" />
             </button>
             <Link className="brand" to="/">
-              amazona
+              SSS
             </Link>
           </div>
-          <div>
+          <div className="serach__Box">
             <Route render={({ history }) => <SearchBox history={history} />} />
           </div>
           <div>

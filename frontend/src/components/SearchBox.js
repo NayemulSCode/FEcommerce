@@ -10,6 +10,7 @@ export default function SearchBox(props) {
     <form className="search" onSubmit={handleSubmit}>
       <div className="row">
         <input
+        placeholder="Search on SSS"
           type="text"
           name="q"
           id="q"

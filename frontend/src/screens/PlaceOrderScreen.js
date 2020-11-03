@@ -87,7 +87,7 @@ function PlaceOrderScreen(props) {
                           </Link>
                         </div>
                         <div md={4} className="text-right">
-                          {item.qty} x ${item.price} = ${item.qty * item.price}
+                          {item.qty} x &#x09F3;{item.price} = &#x09F3;{item.qty * item.price}
                         </div>
                       </div>
                     </li>
@@ -106,19 +106,19 @@ function PlaceOrderScreen(props) {
               <li>
                 <div className="row">
                   <div>Items</div>
-                  <div>${itemsPrice}</div>
+                  <div>&#x09F3;{itemsPrice}</div>
                 </div>
               </li>
               <li>
                 <div className="row">
                   <div>ShippingAddress</div>
-                  <div>${shippingPrice}</div>
+                  <div>&#x09F3;{shippingPrice}</div>
                 </div>
               </li>
               <li>
                 <div className="row">
                   <div>Tax</div>
-                  <div>${taxPrice}</div>
+                  <div>&#x09F3;{taxPrice}</div>
                 </div>
               </li>
               <li>
@@ -127,7 +127,7 @@ function PlaceOrderScreen(props) {
                     <strong>Order Total</strong>
                   </div>
                   <div>
-                    <strong>${totalPrice}</strong>
+                    <strong>&#x09F3;{totalPrice}</strong>
                   </div>
                 </div>
               </li>

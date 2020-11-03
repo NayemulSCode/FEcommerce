@@ -54,6 +54,19 @@ function PaymentMethodScreen(props) {
           </div>
         </div>
         <div>
+          <div>
+            <input
+              type="radio"
+              required
+              id="cash"
+              value="Cash-on"
+              name="paymentMethod"
+              onChange={(e) => setPaymentMethod(e.target.value)}
+            />
+            <label htmlFor="stripe">Cash on Delivery</label>
+          </div>
+        </div>
+        <div>
           <button className="primary" type="submit">
             Continue
           </button>
